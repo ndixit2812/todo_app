@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: "Source Sans Pro", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main_div{
+min-height: 100vh;
+background: #060822;
+display: flex;
+justify-content: center;
+}
+
+.child_div{
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.child_div figure img {
+    width: 10rem;
+    height: 8rem;
+}
+
+ 
+.child_div figure figcaption{
+    color: #fff;
+    font-size: 2.2rem;
+    padding-top: 2rem;
+    text-transform: capitalize;
+}
+
+input {
+    min-width: 40rem;
+    height: 3.4rem;
+    padding: 2rem 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    color: rgb(58, 57, 57);
+    background-color: #fff;
+    background-image: none;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    margin-bottom: 10px;
+}
+
+.eachItems{
+    min-width: 40rem;
+    height: 3.4rem;
+    padding: 2rem 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    color: rgb(58, 57, 57);
+    background-color: rgb(88, 179, 15);
+    background-image: none;
+    border-radius: 0.6rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.showItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.addItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.add-btn{
+
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 15px -6px -35px;
+    color: rgb(16, 199, 41);
+    font-size: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); 
+    
+}
+
+.updated-btn{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 15px -6px -35px;
+    color: rgb(29, 11, 131);
+    font-size: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); 
+}
+
+.todo_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+ 
+}
+
+.todo_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.todo_btn h3{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+}
+
+
+
+.update-btn{
+    
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a5be7;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: -60px 45px 0 -55px;
+    color: rgb(29, 11, 131);
+    font-size: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.delete-btn{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a5be7;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: -60px 3px 0 -25px;
+    color: rgb(230, 11, 55);
+    font-size: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_item{
+    position: relative;
+    bottom: 15px;
+    right: 165px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+.btn_effect{
+    min-width: 10rem;
+    height: 3.4rem;
+    padding: 2rem 1.2rem;
+    font-size: 1.8rem;
+    color: rgb(37, 5, 5);
+    background-color: rgb(206, 203, 10);
+    border-radius: 0.5rem;
+    border: 2px solid rgb(4, 14, 8);
+}
+
+.btn_effect:hover {
+    background-color: rgb(224, 21, 224);
+}
